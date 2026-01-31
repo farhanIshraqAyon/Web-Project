@@ -1,0 +1,48 @@
+:root {
+  /* Colors - Dark Mode Bureaucratic */
+  --color-bg-paper: #121212;
+  /* Very dark charcoal */
+  --color-bg-card: #1e1e1e;
+  /* Slightly lighter card bg */
+  --color-text-primary: #e0e0e0;
+  /* Off-white for readability */
+  --color-text-secondary: #a0a0a0;
+  /* Light gray */
+  --color-text-muted: #666666;
+  /* Muted gray */
+
+  --color-primary: #e0e0e0;
+  /* White/Light Grey text for primary branding */
+  --color-accent: #d4af37;
+  /* Burnished Gold - stands out nicely on dark */
+  --color-danger: #cf6679;
+  /* Muted Red for dark mode */
+  --color-success: #81c784;
+  /* Muted Green for dark mode */
+  --color-info: #64b5f6;
+  /* Light Blue */
+
+  /* Borders */
+  --border-width: 1px;
+  --border-double: 4px;
+  --border-color: #333333;
+  /* Dark gray border */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Shadows */
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-paper: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}

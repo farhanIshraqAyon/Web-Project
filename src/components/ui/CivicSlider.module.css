@@ -1,0 +1,60 @@
+.container {
+    margin-bottom: var(--spacing-md);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xs);
+}
+
+.label {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.value {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.slider {
+    width: 100%;
+    -webkit-appearance: none;
+    height: 6px;
+    background: var(--color-bg-paper);
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid var(--border-color);
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    cursor: pointer;
+    border: 2px solid var(--color-bg-card);
+}
+
+.slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    cursor: pointer;
+    border: 2px solid var(--color-bg-card);
+}
+
+.ticks {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    margin-top: 4px;
+}

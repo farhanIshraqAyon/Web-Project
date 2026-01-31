@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-bg-paper);
+}
+
+.header {
+    border-bottom: var(--border-double) solid var(--border-color);
+    padding: var(--spacing-md) var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-bg-card);
+    box-shadow: var(--shadow-paper);
+    z-index: 10;
+}
+
+.logoRow {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.seal {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+    background: var(--color-accent);
+    /* Placeholder for an actual seal logo */
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+}
+
+.dept {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-secondary);
+}
+
+.bureau {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.userStatus {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    border: 1px solid var(--color-text-muted);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+}
+
+.statusOk {
+    color: var(--color-success);
+    font-weight: bold;
+}
+
+.contentWrapper {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background: var(--color-bg-paper);
+}
+
+.main {
+    flex: 1;
+    padding: var(--spacing-lg);
+    width: 100%;
+    overflow-y: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: var(--spacing-sm);
+    border-top: var(--border-width) solid var(--border-color);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    background: var(--color-bg-paper);
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
